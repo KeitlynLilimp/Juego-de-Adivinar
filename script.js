@@ -16,12 +16,12 @@ function enviar() {
       texto.style.color = "green";
       break;
     } else if (valor > numeroRandom) {
-      texto.innerHTML = `Muy alto! Intenta de nuevo Te quedan ${oportunidades}`;
+      texto.innerHTML = `Muy alto! Intenta de nuevo Te quedan ${oportunidades} oportunidades`;
       texto.style.color = "red";
 
       break;
     } else {
-      texto.innerHTML = `Muy bajo! Intenta de nuevo Te quedan ${oportunidades}`;
+      texto.innerHTML = `Muy bajo! Intenta de nuevo Te quedan ${oportunidades} oportunidades`;
       texto.style.color = "red";
 
       break;
