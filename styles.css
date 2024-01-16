@@ -17,6 +17,7 @@ body {
   background-color: #0097;
   text-transform: uppercase;
   font-family: monospace;
+  overflow: hidden;
 }
 
 .container {
